@@ -32,8 +32,26 @@ const Project1 = () => {
       <p>This project is based on voice commands and can answer anything you want!</p>
       <a href="https://virtual-assistant-js-by-samad.vercel.app/" target="_blank" rel="noopener noreferrer" id="project-link">View Project</a>
     </div>
-  
+
     <div id="project project-6">
+      <h3>E-Com Website <i className='bx bxs-store-alt'></i></h3>
+      <p>E-commerce Website with responsive ness and Shopping cart functionality!</p>
+      <a href="https://e-commerce-website-by-samad.vercel.app/" target="_blank" rel="noopener noreferrer" id="project-link">View Project</a>
+    </div>
+
+    <div id="project project-7">
+      <h3>Blog App <i className='bx bxl-blogger'></i></h3>
+      <p>Blog App On Next Js 15 Introduction with Fully Responsive ness</p>
+      <a href="https://basic-blog-app-by-samad.vercel.app/" target="_blank" rel="noopener noreferrer" id="project-link">View Project</a>
+    </div>
+
+    <div id="project project-8">
+      <h3>E-Com Hackathon <i className='bx bx-store'></i></h3>
+      <p>Figma to E-Commerce Website Pixel perfect with Responsive ness! In Hackathon Event</p>
+      <a href="https://e-commerce-hackathon-by-samad.vercel.app/" target="_blank" rel="noopener noreferrer" id="project-link">View Project</a>
+    </div>
+  
+    <div id="project project-9">
       <h3>IN DEVELOPMENT</h3>
       <p></p>
       <a href="#" target="_blank" rel="noopener noreferrer" id="project-link">View Project</a>

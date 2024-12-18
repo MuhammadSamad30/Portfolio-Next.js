@@ -30,10 +30,10 @@ const Skills1: React.FC = () => {
               ref={(el) => {
                 if (el) skillRefs.current[0] = el;
               }}
-              data-percentage="100%"
+              data-percentage="99%"
             ></div>
           </div>
-          <span id="skillPercentage">100%</span>
+          <span id="skillPercentage">99%</span>
         </div>
       </div>
 
@@ -47,10 +47,10 @@ const Skills1: React.FC = () => {
               ref={(el) => {
                 if (el) skillRefs.current[1] = el;
               }}
-              data-percentage="100%"
+              data-percentage="99%"
             ></div>
           </div>
-          <span id="skillPercentage">100%</span>
+          <span id="skillPercentage">99%</span>
         </div>
       </div>
 
@@ -64,10 +64,10 @@ const Skills1: React.FC = () => {
               ref={(el) => {
                 if (el) skillRefs.current[2] = el;
               }}
-              data-percentage="98%"
+              data-percentage="99%"
             ></div>
           </div>
-          <span id="skillPercentage">98%</span>
+          <span id="skillPercentage">99%</span>
         </div>
       </div>
 
@@ -81,10 +81,10 @@ const Skills1: React.FC = () => {
               ref={(el) => {
                 if (el) skillRefs.current[3] = el;
               }}
-              data-percentage="98%"
+              data-percentage="99%"
             ></div>
           </div>
-          <span id="skillPercentage">98%</span>
+          <span id="skillPercentage">99%</span>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ const Skills1: React.FC = () => {
             <div
               id="skillLevel"
               ref={(el) => {
-                if (el) skillRefs.current[5] = el;
+                if (el) skillRefs.current[4] = el;
               }}
               data-percentage="50%"
             ></div>
@@ -107,13 +107,31 @@ const Skills1: React.FC = () => {
 
       <div id="skillItem">
         <div id="skillInfo">
+        <i className='bx bxl-tailwind-css'></i>
+          <span id="skillName">Tailwind CSS</span>
+          <div id="skillBar">
+            <div
+              id="skillLevel"
+              ref={(el) => {
+                if (el) skillRefs.current[5] = el;
+              }}
+              data-percentage="99%"
+            ></div>
+          </div>
+          <span id="skillPercentage">99%</span>
+        </div>
+      </div>
+
+
+      <div id="skillItem">
+        <div id="skillInfo">
         <i className="bx bxl-nodejs icon"></i>
           <span id="skillName">Node.js</span>
           <div id="skillBar">
             <div
               id="skillLevel"
               ref={(el) => {
-                if (el) skillRefs.current[4] = el;
+                if (el) skillRefs.current[6] = el;
               }}
               data-percentage="35%"
             ></div>
