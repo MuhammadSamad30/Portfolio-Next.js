@@ -29,19 +29,22 @@ const Home = () => {
             <a
               href="https://github.com/MuhammadSamad30"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <i className="bx bxl-github"></i>
             </a>
             <a
               href="https://www.linkedin.com/in/muhammad-samad-6b0190290/"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <i className="bx bxl-linkedin"></i>
             </a>
             <a
               href="https://www.instagram.com/s_a_m_a_d11/"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+            >
               <i className="bx bxl-instagram"></i>
             </a>
           </div>
@@ -54,7 +57,8 @@ const Home = () => {
             src={"/home-pic.jpeg"}
             alt="Muhammad Samad"
             width={500}
-            height={500}/>
+            height={500}
+          />
         </div>
       </div>
       <About1 />

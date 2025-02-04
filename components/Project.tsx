@@ -1,4 +1,5 @@
 import "boxicons/css/boxicons.min.css";
+import Link from "next/link";
 
 const Project1 = () => {
   return (
@@ -52,9 +53,9 @@ const Project1 = () => {
     </div>
   
     <div id="project project-9">
-      <h3>IN DEVELOPMENT</h3>
+      <h3>Want To See All</h3>
       <p></p>
-      <a href="#" target="_blank" rel="noopener noreferrer" id="project-link">View Project</a>
+      <Link href="/projects" id="project-link">View All</Link>
     </div>
   </div>
   )
