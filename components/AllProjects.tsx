@@ -2,6 +2,14 @@
 import "boxicons/css/boxicons.min.css";
 import { projectsData } from "../data/projectsData";
 
+interface ProjectData {
+    id: number;
+    title: string;
+    description: string;
+    icon: string;
+    link: string;
+}
+
 const Project1 = () => {
   return (
     <>
@@ -9,7 +17,7 @@ const Project1 = () => {
         All<span className="pl-2">P</span>rojects
       </h1>
       <div id="projects">
-        {projectsData.map((project: any) => (
+        {projectsData.map((project: ProjectData) => (
           <div key={project.id} id={`project project-${project.id}`}>
             <h3>
               {project.title} <i className={`bx ${project.icon}`}></i>
