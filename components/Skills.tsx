@@ -22,7 +22,7 @@ const Skills1: React.FC = () => {
     <div id="skillsContainer">
       <div id="skillItem">
         <div id="skillInfo">
-        <i className="bx bxl-html5 icon"></i>
+          <i className="bx bxl-html5 icon"></i>
           <span id="skillName">HTML</span>
           <div id="skillBar">
             <div
@@ -39,7 +39,7 @@ const Skills1: React.FC = () => {
 
       <div id="skillItem">
         <div id="skillInfo">
-        <i className="bx bxl-css3 icon"></i>
+          <i className="bx bxl-css3 icon"></i>
           <span id="skillName">CSS</span>
           <div id="skillBar">
             <div
@@ -56,7 +56,7 @@ const Skills1: React.FC = () => {
 
       <div id="skillItem">
         <div id="skillInfo">
-        <i className="bx bxl-javascript icon"></i>
+          <i className="bx bxl-javascript icon"></i>
           <span id="skillName">JavaScript</span>
           <div id="skillBar">
             <div
@@ -73,7 +73,7 @@ const Skills1: React.FC = () => {
 
       <div id="skillItem">
         <div id="skillInfo">
-        <i className="bx bxl-typescript icon"></i>
+          <i className="bx bxl-typescript icon"></i>
           <span id="skillName">TypeScript</span>
           <div id="skillBar">
             <div
@@ -90,7 +90,7 @@ const Skills1: React.FC = () => {
 
       <div id="skillItem">
         <div id="skillInfo">
-      <i className='bx bxl-react'></i>
+          <i className="bx bxl-react"></i>
           <span id="skillName">Next.js</span>
           <div id="skillBar">
             <div
@@ -98,16 +98,16 @@ const Skills1: React.FC = () => {
               ref={(el) => {
                 if (el) skillRefs.current[4] = el;
               }}
-              data-percentage="50%"
+              data-percentage="70%"
             ></div>
           </div>
-          <span id="skillPercentage">50%</span>
+          <span id="skillPercentage">70%</span>
         </div>
       </div>
 
       <div id="skillItem">
         <div id="skillInfo">
-        <i className='bx bxl-tailwind-css'></i>
+          <i className="bx bxl-tailwind-css"></i>
           <span id="skillName">Tailwind CSS</span>
           <div id="skillBar">
             <div
@@ -122,10 +122,9 @@ const Skills1: React.FC = () => {
         </div>
       </div>
 
-
       <div id="skillItem">
         <div id="skillInfo">
-        <i className="bx bxl-nodejs icon"></i>
+          <i className="bx bxl-nodejs icon"></i>
           <span id="skillName">Node.js</span>
           <div id="skillBar">
             <div
