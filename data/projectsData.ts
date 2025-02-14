@@ -79,4 +79,20 @@ export const projectsData = [
     icon: "bx bxl-shopify",
     link: "https://e-commerce-back-end-hackathon-by-samad.vercel.app/",
   },
+  {
+    id: 11,
+    title: "Dino Jumping",
+    description:
+      "Ball jumping Game like Offline Chrome Dino Game Using NextJs and Tailwind CSS",
+    icon: "bx bxs-basketball",
+    link: "https://dino-clone-game-by-samad.vercel.app/",
+  },
+  {
+    id: 12,
+    title: "Gemini Clone",
+    description:
+      "Google Gemini Clone with Responsiveness and Pixel Perfect Design",
+    icon: "bx bxs-bot",
+    link: "https://google-gemini-clone-by-samad.vercel.app/",
+  },
 ];
