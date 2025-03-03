@@ -98,10 +98,27 @@ const Skills1: React.FC = () => {
               ref={(el) => {
                 if (el) skillRefs.current[4] = el;
               }}
-              data-percentage="70%"
+              data-percentage="80%"
             ></div>
           </div>
-          <span id="skillPercentage">70%</span>
+          <span id="skillPercentage">80%</span>
+        </div>
+      </div>
+
+      <div id="skillItem">
+        <div id="skillInfo">
+          <i className="bx bxl-python"></i>
+          <span id="skillName">Python</span>
+          <div id="skillBar">
+            <div
+              id="skillLevel"
+              ref={(el) => {
+                if (el) skillRefs.current[5] = el;
+              }}
+              data-percentage="30%"
+            ></div>
+          </div>
+          <span id="skillPercentage">30%</span>
         </div>
       </div>
 
@@ -113,7 +130,7 @@ const Skills1: React.FC = () => {
             <div
               id="skillLevel"
               ref={(el) => {
-                if (el) skillRefs.current[5] = el;
+                if (el) skillRefs.current[6] = el;
               }}
               data-percentage="99%"
             ></div>
@@ -130,7 +147,7 @@ const Skills1: React.FC = () => {
             <div
               id="skillLevel"
               ref={(el) => {
-                if (el) skillRefs.current[6] = el;
+                if (el) skillRefs.current[7] = el;
               }}
               data-percentage="35%"
             ></div>
