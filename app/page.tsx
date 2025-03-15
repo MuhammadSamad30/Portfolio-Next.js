@@ -62,10 +62,6 @@ const Home = () => {
         </div>
       </div>
       <About1 />
-
-      <h1 id="project-heading">
-        Pro<span>ject</span>
-      </h1>
       <Project1 />
 
       <h1 id="skill-heading">

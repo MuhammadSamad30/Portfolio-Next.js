@@ -115,10 +115,10 @@ const Skills1: React.FC = () => {
               ref={(el) => {
                 if (el) skillRefs.current[5] = el;
               }}
-              data-percentage="30%"
+              data-percentage="65%"
             ></div>
           </div>
-          <span id="skillPercentage">30%</span>
+          <span id="skillPercentage">65%</span>
         </div>
       </div>
 

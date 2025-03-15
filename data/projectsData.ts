@@ -95,4 +95,36 @@ export const projectsData = [
     icon: "bx bxs-bot",
     link: "https://google-gemini-clone-by-samad.vercel.app/",
   },
+  {
+    id: 13,
+    title: "File converter Excel to CSV",
+    description:
+      "File converter Excel to CSV with responsive ness and back-end functionality! Using Streamlit",
+    link: "https://growth-mindset-by-samad.streamlit.app/",
+    icon: "bx bxs-file",
+  },
+  {
+    id: 14,
+    title: "Unit Converter",
+    description:
+      "Ultimate Unit Converter: A powerful and intuitive unit conversion tool built with Python and Streamlit.",
+    link: "https://unit-converter-by-samad.streamlit.app/",
+    icon: "bx bx-unite",
+  },
+  {
+    id: 15,
+    title: "Password Strength",
+    description:
+      "Password Strength Checker — check, improve, and generate strong passwords easily!",
+    link: "https://strength-password-checker-by-samad.streamlit.app/",
+    icon: "bx bxs-lock-alt",
+  },
+  {
+    id: 16,
+    title: "Library Management",
+    description:
+      "This project allows you to easily manage your personal book collection",
+    link: "https://library-manager-by-samad.streamlit.app/",
+    icon: "bx bxs-book",
+  },
 ];
