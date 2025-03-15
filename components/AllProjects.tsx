@@ -2,14 +2,6 @@
 import "boxicons/css/boxicons.min.css";
 import { projectsData } from "../data/projectsData";
 
-interface ProjectData {
-  id: number;
-  title: string;
-  description: string;
-  icon: string;
-  link: string;
-}
-
 const Project1 = () => {
   const htmlProjects = projectsData.filter((project) =>
     [
