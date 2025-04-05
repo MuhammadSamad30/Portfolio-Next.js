@@ -97,6 +97,13 @@ export const projectsData = [
   },
   {
     id: 13,
+    title: "MindMate AI Chatbot",
+    description:"A Next.js project with AI chatbot functionality.",
+    icon: "bx bxs-bot",
+    link: "https://mindmate-ai-chatbot.vercel.app/",
+  },
+  {
+    id: 14,
     title: "File converter Excel to CSV",
     description:
       "File converter Excel to CSV with responsive ness and back-end functionality! Using Streamlit",
@@ -104,7 +111,7 @@ export const projectsData = [
     icon: "bx bxs-file",
   },
   {
-    id: 14,
+    id: 15,
     title: "Unit Converter",
     description:
       "Ultimate Unit Converter: A powerful and intuitive unit conversion tool built with Python and Streamlit.",
@@ -112,7 +119,7 @@ export const projectsData = [
     icon: "bx bx-unite",
   },
   {
-    id: 15,
+    id: 16,
     title: "Password Strength",
     description:
       "Password Strength Checker — check, improve, and generate strong passwords easily!",
@@ -120,11 +127,19 @@ export const projectsData = [
     icon: "bx bxs-lock-alt",
   },
   {
-    id: 16,
+    id: 17,
     title: "Library Management",
     description:
       "This project allows you to easily manage your personal book collection",
     link: "https://library-manager-by-samad.streamlit.app/",
     icon: "bx bxs-book",
+  },
+  {
+    id: 18,
+    title: "BMI Calculator",
+    description:
+      "Calculate your Body Mass Index (BMI) with this simple and effective tool.",
+    link: "https://bmi-calculator-by-samad.streamlit.app/",
+    icon: "bx bxs-heart",
   },
 ];
