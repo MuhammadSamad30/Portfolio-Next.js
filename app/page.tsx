@@ -48,7 +48,7 @@ const Home = () => {
               <i className="bx bxl-instagram"></i>
             </a>
           </div>
-          <a href="" id="btn">
+          <a href="/Muhammad-Samad-Resume.pdf" id="btn" target="_blank" rel="noopener noreferrer">
             Get Resume
           </a>
         </div>
