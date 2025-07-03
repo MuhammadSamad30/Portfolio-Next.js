@@ -212,10 +212,10 @@ body {
   font-weight: 600;
   max-width: 17%;
   transition: all 0.3s ease;
+}
 
-  &:hover {
-    box-shadow: none;
-  }
+#btn:hover {
+  box-shadow: none;
 }
 #multi-text {
   font-size: 18px;
