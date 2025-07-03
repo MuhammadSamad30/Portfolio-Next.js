@@ -59,7 +59,7 @@ const Home = () => {
         </div>
         <div id="img">
           <Image
-            src={"/home-pic.jpeg"}
+            src={"/home-pic.png"}
             alt="Muhammad Samad"
             width={500}
             height={500}

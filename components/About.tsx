@@ -6,7 +6,7 @@ const About1 = () => {
     <div id="about">
       <div id="left">
         <Image
-          src={"/about-pic.png"}
+          src={"/about-pic.jpg"}
           alt="Muhammad Samad"
           width={500}
           height={500}
