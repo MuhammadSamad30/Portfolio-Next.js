@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --background: #222;
+  --background: linear-gradient(135deg, #121212, #1e1e1e);
   --foreground: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #222;
+    --background: linear-gradient(135deg, #121212, #1e1e1e);
     --foreground: #ededed;
   }
 }
@@ -45,7 +45,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  color: #73b9b9;
+  /* color: #73b9b9; */
+  color: #ffb703;
   padding: 10px 20px;
 }
 
@@ -54,6 +55,7 @@ body {
   font-weight: bold;
   padding-right: 51%;
   padding-left: 3%;
+  color: #ffb703;
 }
 
 #nav {
@@ -71,8 +73,7 @@ body {
 }
 
 #nav li:hover {
-  color: #188080;
-  text-decoration: underline;
+  color: #d6b153;
 }
 
 #hamburger {
@@ -145,7 +146,7 @@ body {
 #content h1 {
   text-align: left;
   font-size: 48px;
-  color: #b8b6cfd5;
+  color: #ffb703;
   margin: 0;
   padding-left: 0;
 }
@@ -173,14 +174,7 @@ body {
 
 #container #img img {
   width: 600px;
-  box-shadow: 0 0 8rem hsl(303, 97%, 27%);
   border-radius: 16px;
-  transition: all 0.3s ease;
-
-  &:hover {
-    box-shadow: none;
-    transform: scale(1.1);
-  }
 }
 
 #social-media a {
@@ -285,7 +279,8 @@ body {
 }
 
 #right h1 span {
-  color: #5e3bee;
+  font-weight: bold;
+  font-family: geist-sans;
 }
 
 #right p {
@@ -328,7 +323,11 @@ body {
 
 .category-title i {
   font-size: 2rem;
-  color: #4fd1c5;
+  color: #ffb703;
+}
+
+#project-icon{
+  color: #ffb703;
 }
 
 .category-title h2 {
@@ -341,7 +340,6 @@ body {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 .project-card.glass:hover {
@@ -368,57 +366,64 @@ body {
   font-size: 30px;
   font-weight: 900;
   padding: 1px;
-  color: #399fc7;
+  color: #ffb703;
   font-family: Arial, sans-serif;
 }
 
-#skill-heading span {
-  color: #2575fc;
-  padding: 1px;
+#skillsSection {
+  padding: 60px 20px;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#skillItem {
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+  color: #f9fafb;
+}
+
+#skillsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  padding: 0 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.skillCard {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 30px 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  background: #613636;
-  border-radius: 8px;
-  padding: 10px 15px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  gap: 12px;
 }
 
-#skillInfo i {
-  font-size: 2rem;
-  color: #b89393;
-  margin-right: 15px;
+.skillCard:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
 }
 
-#skillInfo {
-  flex: 1;
+.skillIcon {
+  font-size: 2.5rem;
+  color: #ffb703;
 }
 
-#skillName {
-  font-weight: bold;
+.skillName {
   font-size: 1.1rem;
+  font-weight: 600;
+  color: #f4f4f4;
 }
 
-#skillBar {
-  background: #e0e0e0;
-  border-radius: 5px;
-  overflow: hidden;
-  margin: 5px 0;
-  height: 8px;
-}
-
-#skillLevel {
-  height: 100%;
-  background: linear-gradient(90deg, #6a11cb, #2575fc);
-}
-
-#skillPercentage {
-  font-size: 0.9rem;
-  font-weight: bold;
-  margin-left: 10px;
-}
 
 #contact-container {
   display: flex;
@@ -497,7 +502,7 @@ body {
 }
 
 #submitButton {
-  background-color: #6a1b9a;
+  background-color: #ffb803bd;
   color: #ffffff;
   padding: 10px 20px;
   border: none;
@@ -507,7 +512,7 @@ body {
 }
 
 #submitButton:hover {
-  background-color: #5c1380;
+  background-color: #c59f3dbd;
 }
 
 @media (max-width: 600px) {
@@ -767,35 +772,53 @@ body {
     flex: 1;
   }
 
-  #skillsContainer {
-    padding: 15px;
-    max-width: 100%;
+  #skillsSection {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #121212, #1e1e1e);
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  #skillItem {
-    align-items: flex-start;
-    gap: 8px;
+  #skillsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    padding: 0 20px;
+    max-width: 1100px;
+    margin: 0 auto;
   }
 
-  #skillInfo i {
-    font-size: 1.3rem;
-    margin-right: 0;
+  .skillCard {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 30px 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+
+    &:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.4);
+    }
   }
 
-  #skillBar {
-    width: 100%;
-    height: 6px;
+
+  .skillIcon {
+    font-size: 2.5rem;
+    color: #ffb703;
   }
 
-  #skillLevel {
-    height: 100%;
-    background: linear-gradient(90deg, #6a11cb, #2575fc);
-  }
-
-  #skillPercentage {
-    font-size: 0.8rem;
-    font-weight: bold;
-    margin-left: 8px;
+  .skillName {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #f4f4f4;
   }
 
   #contact-container {
@@ -832,13 +855,9 @@ body {
   font-size: 40px;
   font-weight: 600;
   padding: 1px;
-  color: #399fc7;
+  color: #ffb703;
   font-family: Arial, sans-serif;
   margin-bottom: 2rem;
-}
-
-#project-heading span {
-  color: #5e3bee;
 }
 
 #projects {
@@ -852,7 +871,6 @@ body {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   padding: 1.5rem;
   border-radius: 1rem;
   transition: all 0.3s ease;

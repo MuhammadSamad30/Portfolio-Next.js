@@ -4,7 +4,7 @@ import "boxicons/css/boxicons.min.css";
 import TypingEffect from "@/components/Typing";
 import About1 from "@/components/About";
 import Project1 from "@/components/Project";
-import Skills1 from "@/components/Skills";
+import Skills1 from "@/components/Skills/Skills";
 
 const Home = () => {
   return (
@@ -48,7 +48,12 @@ const Home = () => {
               <i className="bx bxl-instagram"></i>
             </a>
           </div>
-          <a href="/Muhammad-Samad-Resume.pdf" id="btn" target="_blank" rel="noopener noreferrer">
+          <a
+            href="/Muhammad_Samad.pdf"
+            id="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Get Resume
           </a>
         </div>

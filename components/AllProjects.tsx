@@ -45,8 +45,8 @@ const Project1 = () => {
 
   return (
     <div className="projects-container">
-      <h1 id="project-heading">
-        All<span className="pl-2">P</span>rojects
+      <h1 className="flex justify-center text-[25px] md:text-[35px] font-black p-[1px] text-[#d6b153] font-sans mt-8 mb-6">
+        All Projects
       </h1>
 
       <div className="category-section">
@@ -58,7 +58,7 @@ const Project1 = () => {
           {htmlProjects.map((project) => (
             <div key={project.id} className="project-card glass">
               <h3>
-                {project.title} <i className={`bx ${project.icon}`}></i>
+                {project.title} <i id="project-icon" className={`bx ${project.icon}`}></i>
               </h3>
               <p>{project.description}</p>
               <a
@@ -80,7 +80,7 @@ const Project1 = () => {
           {nextJsProjects.map((project) => (
             <div key={project.id} className="project-card glass">
               <h3>
-                {project.title} <i className={`bx ${project.icon}`}></i>
+                {project.title} <i id="project-icon"  className={`bx ${project.icon}`}></i>
               </h3>
               <p>{project.description}</p>
               <a
@@ -102,7 +102,7 @@ const Project1 = () => {
           {pythonProjects.map((project) => (
             <div key={project.id} className="project-card glass">
               <h3>
-                {project.title} <i className={`bx ${project.icon}`}></i>
+                {project.title} <i id="project-icon" className={`bx ${project.icon}`}></i>
               </h3>
               <p>{project.description}</p>
               <a

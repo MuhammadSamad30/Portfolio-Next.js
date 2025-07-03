@@ -38,8 +38,8 @@ const projects = [
 const Project1 = () => {
   return (
     <div className="projects-container">
-      <h1 id="project-heading">
-        Featured <span>Projects</span>
+      <h1 className="flex justify-center text-[28px] md:text-[35px] font-black p-[1px] text-[#d6b153] font-sans mt-4 mb-6">
+        Featured Projects
       </h1>
 
       <div className="category-section">
@@ -52,7 +52,7 @@ const Project1 = () => {
           {projects.map((project) => (
             <div key={project.id} className="project-card glass">
               <h3>
-                {project.title} <i className={`bx ${project.icon}`}></i>
+                {project.title} <i id="project-icon" className={`bx ${project.icon}`}></i>
               </h3>
               <p>{project.description}</p>
               <a
@@ -68,7 +68,7 @@ const Project1 = () => {
 
           <div className="project-card glass">
             <h3>
-              Want To See All <i className="bx bx-link-external"></i>
+              Want To See All <i id="project-icon" className="bx bx-link-external"></i>
             </h3>
             <p>Explore my complete portfolio of projects</p>
             <Link href="/projects" id="project-link">
