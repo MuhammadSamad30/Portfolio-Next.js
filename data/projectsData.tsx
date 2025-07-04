@@ -1,3 +1,5 @@
+import { MdTranslate } from "react-icons/md";
+
 export const projectsData = [
   {
     id: 1,
@@ -98,7 +100,7 @@ export const projectsData = [
   {
     id: 13,
     title: "MindMate AI Chatbot",
-    description:"A Next.js project with AI chatbot functionality.",
+    description: "A Next.js project with AI chatbot functionality.",
     icon: "bx bxs-bot",
     link: "https://mindmate-ai-chatbot.vercel.app/",
   },
@@ -141,5 +143,21 @@ export const projectsData = [
       "Calculate your Body Mass Index (BMI) with this simple and effective tool.",
     link: "https://bmi-calculator-by-samad.streamlit.app/",
     icon: "bx bxs-heart",
+  },
+  {
+    id: 19,
+    title: "Translator Agent",
+    description:
+      "A powerful translator agent that can translate text between multiple languages.",
+    link: "https://translator-agent-by-samad.streamlit.app/",
+    icon: <MdTranslate />,
+  },
+  {
+    id: 20,
+    title: "Multi Mode ChatBot",
+    description:
+      "A versatile chatbot that can handle multiple conversation modes.",
+    link: "https://multi-mode-chatbot-by-samad.streamlit.app/",
+    icon: "bx bxs-chat",
   },
 ];

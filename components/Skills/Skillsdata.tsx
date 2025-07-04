@@ -2,14 +2,15 @@ import React from "react";
 
 import { RiNextjsFill } from "react-icons/ri";
 import { TbBrandReactNative, TbBrandJavascript } from "react-icons/tb";
-import { FaNodeJs, FaReact, FaPython, FaHtml5, FaGitAlt } from "react-icons/fa";
+import { FaNodeJs, FaReact, FaPython, FaHtml5, FaGitAlt, FaBootstrap } from "react-icons/fa";
 import { BiLogoTypescript, BiLogoGithub } from "react-icons/bi";
-import { SiTailwindcss } from "react-icons/si";
+import { SiTailwindcss, SiSanity, SiStrapi, SiShadcnui } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io";
 import { IoLogoFigma } from "react-icons/io5";
 import { GiThink } from "react-icons/gi";
 import { LuScanSearch } from "react-icons/lu";
 import { GrUserWorker } from "react-icons/gr";
+
 
 const skills = [
   {
@@ -61,22 +62,38 @@ const skills = [
     name: "GitHub",
   },
   {
-    icon: <IoLogoFigma/>,
+    icon: <SiSanity />,
+    name: "Sanity CMS",
+  },
+  {
+    icon: <SiStrapi />,
+    name: "Strapi CMS",
+  },
+  {
+    icon: <SiShadcnui />,
+    name: "Shadcn UI",
+  },
+  {
+    icon: <FaBootstrap />,
+    name: "Bootstrap",
+  },
+  {
+    icon: <IoLogoFigma />,
     name: "Figma Design",
   },
   {
     icon: <GrUserWorker />,
-    name: "Diligent Worker"
+    name: "Diligent Worker",
   },
   ,
   {
     icon: <LuScanSearch />,
-    name: "Problem Identification"
+    name: "Problem Identification",
   },
   {
     icon: <GiThink />,
-    name: "Creative Thinking"
-  }
+    name: "Creative Thinking",
+  },
 ];
 
 export default skills;

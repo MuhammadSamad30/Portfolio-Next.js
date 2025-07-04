@@ -32,7 +32,9 @@ const Project1 = () => {
       "Unit Converter",
       "Password Strength",
       "Library Management",
-      "BMI Calculator"
+      "BMI Calculator",
+      "Translator Agent",
+      "Multi Mode ChatBot",
     ].includes(project.title)
   );
 
