@@ -160,4 +160,11 @@ export const projectsData = [
     link: "https://multi-mode-chatbot-by-samad.streamlit.app/",
     icon: "bx bxs-chat",
   },
+  {
+    id: 21,
+    title: "Universal Video Downloader",
+    description: "Download videos from various platforms with ease.",
+    link: "https://video-downloader-by-samad.streamlit.app/",
+    icon: "bx bxs-video",
+  }
 ];
