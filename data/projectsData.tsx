@@ -162,7 +162,7 @@ export const projectsData = [
   },
   {
     id: 21,
-    title: "Universal Video Downloader",
+    title: "Universal Downloader",
     description: "Download videos from various platforms with ease.",
     link: "https://video-downloader-by-samad.streamlit.app/",
     icon: "bx bxs-video",

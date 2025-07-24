@@ -35,7 +35,7 @@ const Project1 = () => {
       "BMI Calculator",
       "Translator Agent",
       "Multi Mode ChatBot",
-      "Universal Video Downloader"
+      "Universal Downloader"
     ].includes(project.title)
   );
 
