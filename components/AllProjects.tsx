@@ -9,7 +9,6 @@ const Project1 = () => {
       "Age Calculator",
       "I'D Card Generator",
       "Currency Converter",
-      "Virtual Assistant",
       "Gemini Clone",
     ].includes(project.title)
   );

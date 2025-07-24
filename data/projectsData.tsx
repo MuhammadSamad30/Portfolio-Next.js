@@ -35,14 +35,6 @@ export const projectsData = [
   },
   {
     id: 5,
-    title: "Virtual Assistant",
-    description:
-      "This project is based on voice commands and can answer anything you want!",
-    icon: "bx-brain",
-    link: "https://virtual-assistant-js-by-samad.vercel.app/",
-  },
-  {
-    id: 6,
     title: "E-Com Website",
     description:
       "E-commerce Website with responsiveness and shopping cart functionality!",
@@ -50,7 +42,7 @@ export const projectsData = [
     link: "https://e-commerce-website-by-samad.vercel.app/",
   },
   {
-    id: 7,
+    id: 6,
     title: "Blog App",
     description:
       "Blog App on Next.js 15 Introduction with full responsiveness.",
@@ -58,7 +50,7 @@ export const projectsData = [
     link: "https://basic-blog-app-by-samad.vercel.app/",
   },
   {
-    id: 8,
+    id: 7,
     title: "E-Com Hackathon",
     description:
       "Figma to E-Commerce Website Pixel-perfect with responsiveness! Hackathon event submission.",
@@ -66,7 +58,7 @@ export const projectsData = [
     link: "https://e-commerce-hackathon-by-samad.vercel.app/",
   },
   {
-    id: 9,
+    id: 8,
     title: "ExamQuiz.io",
     description:
       "a platform to test your knowledge. Start your quiz and challenge yourself with different levels of difficulty",
@@ -74,7 +66,7 @@ export const projectsData = [
     link: "https://exam-quiz-io-muhammad-samad.vercel.app/",
   },
   {
-    id: 10,
+    id: 9,
     title: "E-Com Back-End",
     description:
       "E-commerce Website with responsive ness and back-end functionality!",
@@ -82,7 +74,7 @@ export const projectsData = [
     link: "https://e-commerce-back-end-hackathon-by-samad.vercel.app/",
   },
   {
-    id: 11,
+    id: 10,
     title: "Dino Jumping",
     description:
       "Ball jumping Game like Offline Chrome Dino Game Using NextJs and Tailwind CSS",
@@ -90,7 +82,7 @@ export const projectsData = [
     link: "https://dino-clone-game-by-samad.vercel.app/",
   },
   {
-    id: 12,
+    id: 11,
     title: "Gemini Clone",
     description:
       "Google Gemini Clone with Responsiveness and Pixel Perfect Design",
@@ -98,14 +90,14 @@ export const projectsData = [
     link: "https://google-gemini-clone-by-samad.vercel.app/",
   },
   {
-    id: 13,
+    id: 12,
     title: "MindMate AI Chatbot",
     description: "A Next.js project with AI chatbot functionality.",
     icon: "bx bxs-bot",
     link: "https://mindmate-ai-chatbot.vercel.app/",
   },
   {
-    id: 14,
+    id: 13,
     title: "File converter Excel to CSV",
     description:
       "File converter Excel to CSV with responsive ness and back-end functionality! Using Streamlit",
@@ -113,7 +105,7 @@ export const projectsData = [
     icon: "bx bxs-file",
   },
   {
-    id: 15,
+    id: 14,
     title: "Unit Converter",
     description:
       "Ultimate Unit Converter: A powerful and intuitive unit conversion tool built with Python and Streamlit.",
@@ -121,7 +113,7 @@ export const projectsData = [
     icon: "bx bx-unite",
   },
   {
-    id: 16,
+    id: 15,
     title: "Password Strength",
     description:
       "Password Strength Checker — check, improve, and generate strong passwords easily!",
@@ -129,7 +121,7 @@ export const projectsData = [
     icon: "bx bxs-lock-alt",
   },
   {
-    id: 17,
+    id: 16,
     title: "Library Management",
     description:
       "This project allows you to easily manage your personal book collection",
@@ -137,7 +129,7 @@ export const projectsData = [
     icon: "bx bxs-book",
   },
   {
-    id: 18,
+    id: 17,
     title: "BMI Calculator",
     description:
       "Calculate your Body Mass Index (BMI) with this simple and effective tool.",
@@ -145,7 +137,7 @@ export const projectsData = [
     icon: "bx bxs-heart",
   },
   {
-    id: 19,
+    id: 18,
     title: "Translator Agent",
     description:
       "A powerful translator agent that can translate text between multiple languages.",
@@ -153,7 +145,7 @@ export const projectsData = [
     icon: <MdTranslate />,
   },
   {
-    id: 20,
+    id: 19,
     title: "Multi Mode ChatBot",
     description:
       "A versatile chatbot that can handle multiple conversation modes.",
@@ -161,7 +153,7 @@ export const projectsData = [
     icon: "bx bxs-chat",
   },
   {
-    id: 21,
+    id: 20,
     title: "Universal Downloader",
     description: "Download videos from various platforms with ease.",
     link: "https://video-downloader-by-samad.streamlit.app/",
