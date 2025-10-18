@@ -15,11 +15,9 @@ const Project1 = () => {
 
   const nextJsProjects = projectsData.filter((project) =>
     [
-      "MindMate AI Chatbot",
       "E-Com Website",
       "Blog App",
       "E-Com Hackathon",
-      "ExamQuiz.io",
       "E-Com Back-End",
       "Dino Jumping",
     ].includes(project.title)

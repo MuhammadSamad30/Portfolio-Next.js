@@ -3,7 +3,6 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
-import ChatbotPopover from "@/components/ChatbotPopover";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -33,7 +32,6 @@ export default function RootLayout({
       >
         <Nav/>
         {children}
-        <ChatbotPopover/>
         <Footer/>
       </body>
     </html>
