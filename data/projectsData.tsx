@@ -143,5 +143,12 @@ export const projectsData = [
     description: "Download videos from various platforms with ease.",
     link: "https://video-downloader-by-samad.streamlit.app/",
     icon: "bx bxs-video",
-  }
+  },
+  {
+    id: 19,
+    title: "SmartCalc Hub",
+    description: "Featuring multiple calculation modes including 10+ Calculators.",
+    link: "https://smartcalc-hub.vercel.app/",
+    icon: "bx bxs-calculator",
+  },
 ];

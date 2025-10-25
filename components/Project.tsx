@@ -4,6 +4,22 @@ import Link from "next/link";
 const projects = [
   {
     id: "project-1",
+    title: "SmartCalc-Hub",
+    icon: "bx bxs-calculator",
+    description:
+      "Featuring multiple calculation modes including 10+ Calculators.",
+    link: "https://smartcalc-hub.vercel.app/",
+  },
+  {
+    id: "project-2",
+    title: "Gemini Clone",
+    description:
+      "Google Gemini Clone with Responsiveness and Pixel Perfect Design",
+    icon: "bx bxs-bot",
+    link: "https://google-gemini-clone-by-samad.vercel.app/",
+  },
+  {
+    id: "project-3",
     title: "Resume Builder",
     icon: "bxs-spreadsheet",
     description:
@@ -11,27 +27,12 @@ const projects = [
     link: "https://shareable-resume-builder-by-samad.vercel.app/",
   },
   {
-    id: "project-2",
+    id: "project-4",
     title: "E-Com Website",
     icon: "bxs-store-alt",
     description:
       "E-commerce Website with responsiveness and Shopping cart functionality!",
     link: "https://e-commerce-website-by-samad.vercel.app/",
-  },
-  {
-    id: "project-3",
-    title: "Blog App",
-    icon: "bxl-blogger",
-    description: "Blog App On Next Js 15 Introduction with Full Responsiveness",
-    link: "https://basic-blog-app-by-samad.vercel.app/",
-  },
-  {
-    id: "project-4",
-    title: "E-Com Hackathon",
-    icon: "bx-store",
-    description:
-      "Figma to E-Commerce Website Pixel perfect with Responsiveness! In Hackathon Event",
-    link: "https://e-commerce-hackathon-by-samad.vercel.app/",
   },
 ];
 
@@ -52,7 +53,8 @@ const Project1 = () => {
           {projects.map((project) => (
             <div key={project.id} className="project-card glass">
               <h3>
-                {project.title} <i id="project-icon" className={`bx ${project.icon}`}></i>
+                {project.title}{" "}
+                <i id="project-icon" className={`bx ${project.icon}`}></i>
               </h3>
               <p>{project.description}</p>
               <a
@@ -68,7 +70,8 @@ const Project1 = () => {
 
           <div className="project-card glass">
             <h3>
-              Want To See All <i id="project-icon" className="bx bx-link-external"></i>
+              Want To See All{" "}
+              <i id="project-icon" className="bx bx-link-external"></i>
             </h3>
             <p>Explore my complete portfolio of projects</p>
             <Link href="/projects" id="project-link">

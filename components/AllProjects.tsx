@@ -15,6 +15,7 @@ const Project1 = () => {
 
   const nextJsProjects = projectsData.filter((project) =>
     [
+      "SmartCalc Hub",
       "E-Com Website",
       "Blog App",
       "E-Com Hackathon",
