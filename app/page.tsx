@@ -69,7 +69,7 @@ const Home = () => {
       <About1 />
       <Project1 />
 
-      <h1 id="skill-heading">
+      <h1 id="skill-heading"> 
         <span>My</span>&nbsp;Expertise
       </h1>
       <Skills1 />
